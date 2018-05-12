@@ -23,6 +23,7 @@ form h5{
     max-width: 350px;
     height: 196px;
     position: relative;
+    background: #f3f3f3;
 }
 .thumb.video{
     cursor: pointer;
