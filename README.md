@@ -32,7 +32,7 @@ To build the application for Windows 32/64 bit, Mac OS X 64 bit and Linux 32/64 
 $ npm run nw-prod
 ```
 
-The output files can be found under `dist/build`.
+The output files can be found under `dist/build`
 
 [nodejs]: https://nodejs.org/
 [download]: https://github.com/philipsoares/4yousee-front-end-test/archive/master.zip

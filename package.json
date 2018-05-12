@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "nw-dev": "nw dist/angular",
-    "nw-prod": "nwbuild --platforms win32,win64 --buildDir ./dist/build dist/angular/"
+    "nw-prod": "nwbuild --platforms win32,win64,osx64,linux32,linux64 --buildDir ./dist/build dist/angular/"
   },
   "private": true,
   "dependencies": {
