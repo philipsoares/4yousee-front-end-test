@@ -1,6 +1,6 @@
 # 4yousee Front-End Test
 
-This is a Front-End test project for 4yousee company
+This is a Front-End test project for 4yousee company using [nw.js][nwjs] and [Angular 6][angular] for development
 
 ## Requirements
 
@@ -35,5 +35,7 @@ $ npm run nw-prod
 
 The output files can be found under `dist/build` 
 
-[nodejs]: https://nodejs.org/
+[nwjs]: https://nwjs.io
+[angular]: https://angular.io
+[nodejs]: https://nodejs.org
 [download]: https://github.com/philipsoares/4yousee-front-end-test/archive/master.zip
