@@ -1,0 +1,42 @@
+form{
+    margin: 1rem 10px 0;
+    background: url(../assets/logo.png) no-repeat center top;
+    padding-top: 80px;
+}
+form .form-group{
+    display: flex; 
+}
+form h5{
+    width: 20%;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    max-width: 350px;
+    margin: 0 10px 1rem;
+}
+.thumb{
+    max-width: 350px;
+    height: 196px;
+    position: relative;
+}
+.thumb.video{
+    cursor: pointer;
+}
+.thumb.video::after{
+    content: '';
+    display: block;
+    height: 32px;
+    width: 32px;
+    background: url(../assets/play.png);
+    position: absolute;
+    top: 82px;
+    left: 158px;
+}
+.thumb img{
+    max-width: 100%;
+}

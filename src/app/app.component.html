@@ -1,0 +1,29 @@
+<div class="container">
+  <form>
+    <div class="form-group">
+      <h5>Filter by category:</h5>
+      <select class="form-control" (change)="onChange($event.target.value)">
+        <option>All</option>
+        <option *ngFor="let option of options">{{option}}</option>
+      </select>
+    </div>
+  </form>
+  <div class="card-container">
+    <div class="card" *ngFor="let data of data">
+      <div class="thumb video" *ngIf="data.type === 'video'"
+        data-toggle="modal" data-target="#appModal"
+        (click)="getVideo(data.file)">
+       <img src="{{data.thumbnail}}" alt="" />
+      </div>
+      <div class="thumb" *ngIf="data.type !== 'video'">
+        <img src="{{data.thumbnail}}" alt="" />
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">{{data.title}}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Category: {{data.category}} | Type: {{data.type}}</h6>
+        <p class="card-text">{{data.description}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<app-modal [video]="video"></app-modal>

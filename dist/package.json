@@ -1,0 +1,10 @@
+{
+  "name": "4yousee-front-end-test",
+  "version": "1.0.0",
+  "description": "Front-End test project for 4yousee company",
+  "main": "index.html",
+  "window": {
+    "min_width": 1200,
+    "min_height": 770
+  }
+}

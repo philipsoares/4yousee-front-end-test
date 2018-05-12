@@ -1,0 +1,14 @@
+<div class="modal fade" id="appModal" tabindex="-1" role="dialog" aria-labelledby="appModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+            <button type="button" class="close mb-2" data-dismiss="modal" aria-label="Close" onclick="document.getElementById('video').pause()" >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <video id="video" width="640" controls src="{{video}}" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+        </div>        
+      </div>
+    </div>
+  </div>
