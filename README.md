@@ -1,6 +1,6 @@
 # 4yousee Front-End Test
 
-This is a Front-End test project for 4yousee company.
+This is a Front-End test project for 4yousee company
 
 ## Requirements
 
@@ -14,6 +14,7 @@ This is a Front-End test project for 4yousee company.
 
    ```bash
    $ npm install
+   $ ng build --prod
    ```
 
 ## Development
